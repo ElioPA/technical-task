@@ -1,0 +1,11 @@
+.post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+    border: 2px solid black;
+}
+
+.like{
+    height: 100%;
+}
