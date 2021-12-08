@@ -1,12 +1,11 @@
-.posts-list {
-    gap: 20%;
+.postslist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
 }
 
-.post{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2%;
-    border: 2px solid black;
-    
-}
+@media screen and (max-width: 768px) {
+    .postslist {
+        grid-template-columns: 1fr;
+    }
+}  

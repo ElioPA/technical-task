@@ -1,0 +1,21 @@
+.home{
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.6em;
+}
+
+.home .home__toggle {
+    align-self: center;
+} 
+
+.home .home__select {
+    font-family: Roboto;
+}
+
+.home__select > .MuiOutlinedInput-root {
+    width: 30%;
+}

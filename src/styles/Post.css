@@ -1,11 +1,30 @@
-.post {
+ .card {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 2%;
-    border: 2px solid black;
+    align-items: center;
+    height: 80px;
+    opacity: 0.8; 
+    border-radius: 6px;
+    border: solid 1px #979797;
+    background-color: #fff;
+    padding: 20px;
 }
 
-.like{
-    height: 100%;
+.card:hover {
+    opacity: 0.4;
 }
+
+.card__texts > p{
+    font-family: Roboto;
+}
+
+.card__texts > .p1 {
+    font-size: 13px;
+    color: #767676;
+}
+
+
+
+
+
+
